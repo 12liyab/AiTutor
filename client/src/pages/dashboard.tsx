@@ -11,7 +11,7 @@ import { Document, Question } from "@shared/schema";
 import { LayoutDashboard } from "lucide-react";
 import { useLocation } from "wouter";
 
-interface DashboardProps {
+interface DashboardProps { 
   user: User | null;
 }
 
